@@ -12,17 +12,16 @@
 # This Puppetfile is for the Puppet environment listed above. It should be in a
 # git branch by the same name.
 #
-# For development instructions, see the development environment's Puppetfile
+# For development instructions, see the integration environment's Puppetfile
 
 ##
 # SITE CODE
 #
 # Should be assigned a specific version (tag or commit).
 #
-mod 'site_code',
-    :install_path => '.',
-    :git          => 'https://github.com/puppetlabs/puppet-site-code.git',
-    :ref          => 'master' # CHANGE THIS TO A SPECIFIC TAG OR COMMIT
+basemod 'code',
+    :git => 'https://github.com/puppetlabs/puppet-site-code.git',
+    :ref => '1.1'
 
 ##
 # MODULES
