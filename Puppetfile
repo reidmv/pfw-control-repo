@@ -35,10 +35,9 @@
 # puppet-site-code repo. In later environments specific versions of the site
 # code is deployed.
 #
-mod 'site_code',
-    :install_path => '.',
-    :git          => 'https://github.com/puppetlabs/puppet-site-code.git',
-    :ref          => 'master'
+basemod 'code',
+    :git => 'https://github.com/puppetlabs/puppet-site-code.git',
+    :ref => 'master'
 
 ##
 # MODULES
