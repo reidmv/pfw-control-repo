@@ -20,7 +20,7 @@
 # Should be assigned a specific version (tag or commit).
 #
 basemod 'code',
-    :git => 'https://github.com/puppetlabs/puppet-site-code.git',
+    :git => 'https://github.com/reidmv/puppet-site-code.git',
     :ref => '1.1'
 
 ##
@@ -33,7 +33,7 @@ mod 'puppetlabs/stdlib',
   :ref => '4.20.0'
 mod 'lwf/remote_file',
   :git => 'https://github.com/lwf/puppet-remote_file.git',
-  :ref => '1.1.3'
+  :ref => 'v1.1.3'
 mod 'puppetlabs/concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
   :ref => '4.1.0'
