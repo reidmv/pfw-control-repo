@@ -36,7 +36,7 @@
 # code is deployed.
 #
 basemod 'code',
-    :git => 'https://github.com/puppetlabs/puppet-site-code.git',
+    :git => 'https://github.com/reidmv/puppet-site-code.git',
     :ref => 'master'
 
 ##
